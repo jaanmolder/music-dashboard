@@ -1,0 +1,52 @@
+.header {
+  position: relative;
+  width: 1440px;
+  height: 168px;
+
+  /* primary */
+  background: #252b40;
+}
+
+.search {
+  position: absolute;
+  right: 32px;
+  /*right: 0%;*/
+  top: 32px;
+  /*bottom: 0%;*/
+
+  /* background */
+
+  background: #FFFFFF;
+  height: 40px;
+  width: 336px;
+  /*left: 0px;*/
+  /*top: 0px;*/
+  border-radius: 0;
+
+}
+
+.mainText {
+  /* Music events */
+
+
+  position: absolute;
+  width: 229px;
+  height: 48px;
+  left: 32px;
+  top: 32px;
+
+  /* H1 */
+
+  font-family: Segoe UI, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+
+
+  /* text */
+
+  color: #FFFFFF;
+
+}

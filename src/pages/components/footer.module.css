@@ -1,0 +1,26 @@
+.footer {
+    /* Fitek 2020 */
+
+
+    position: absolute;
+    width: 73px;
+    height: 24px;
+    left: 683px;
+    top: 943px;
+
+    /* p */
+
+    font-family: Segoe UI, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Text */
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
