@@ -5,8 +5,8 @@ const apikey = "0JIWxBrWrDwCSXZzhD9HKwPngGfGc9fq";
 export const GET_ALL_MUSIC_EVENTS = "GET_ALL_MUSIC_EVENTS";
 
 export const fetchHandler = async (
-    url: RequestInfo,
-    config: RequestInit | undefined
+  url: RequestInfo,
+  config: RequestInit | undefined
 ) => {
   let res = null;
   try {
@@ -18,7 +18,6 @@ export const fetchHandler = async (
   }
   return res;
 };
-
 
 export const getMusicEvents = async () => {
   const config = {};
@@ -37,5 +36,37 @@ export const getMusicEvents = async () => {
   //   type: GET_ALL_MUSIC_EVENTS,
   //   payload: res
   // };
+  return res;
+};
+
+export const getEventDetails = async (eventId: any) => {
+  const config = {};
+  let res;
+
+  try {
+    res = await fetchHandler(
+      `/discovery/v2/events/${eventId}?apikey=${apikey}`,
+      config
+    );
+  } catch (error) {
+    // console.log(error);
+  }
+
+  return res;
+};
+
+export const getMusicGenres = async () => {
+  const config = {};
+  let res;
+
+  try {
+    res = await fetchHandler(
+      `/discovery/v2/classifications/KZFzniwnSyZfZ7v7nJ?apikey=${apikey}`,
+      config
+    );
+  } catch (error) {
+    // console.log(error);
+  }
+
   return res;
 };
