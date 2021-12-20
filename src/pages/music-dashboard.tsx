@@ -20,7 +20,7 @@ const MusicDashboard: FunctionComponent<MusicDashboardTypes> = ({
   useEffect(() => {
     (async function () {
       const getEvents = await getMusicEvents();
-      setEvents(getEvents._embedded.events)
+      setEvents(getEvents._embedded.events);
 
       try {
         const getGenres = await getMusicGenres();

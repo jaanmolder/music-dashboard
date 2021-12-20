@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  width: 1440px;
+  width: 100vw;
   height: 168px;
 
   /* primary */
@@ -16,18 +16,16 @@
 
   /* background */
 
-  background: #FFFFFF;
+  background: #ffffff;
   height: 40px;
   width: 336px;
   /*left: 0px;*/
   /*top: 0px;*/
   border-radius: 0;
-
 }
 
 .mainText {
   /* Music events */
-
 
   position: absolute;
   width: 229px;
@@ -44,9 +42,7 @@
   line-height: 48px;
   /* identical to box height, or 120% */
 
-
   /* text */
 
-  color: #FFFFFF;
-
+  color: #ffffff;
 }

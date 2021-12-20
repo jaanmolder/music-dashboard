@@ -1,19 +1,16 @@
 import React, { FunctionComponent } from "react";
-import style from "./header.module.css";
+import style from "./footer.module.css";
 
-type FooterTypes = {
-    // changeWheelHandler: any;
-};
+type FooterTypes = {};
 
-const Footer: FunctionComponent<FooterTypes> = ({}) => {
-    return (
-        <>
-            <div className={style.footer}>
-                <span >Fitek 2020</span>
-
-            </div>
-        </>
-    );
+const Footer: FunctionComponent<FooterTypes> = () => {
+  return (
+    <>
+      <div className={style.footer}>
+        <p>Fitek 2020</p>
+      </div>
+    </>
+  );
 };
 
 export default Footer;

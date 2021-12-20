@@ -20,8 +20,6 @@ const Menu: FunctionComponent<MenuTypes> = ({ genres }) => {
           //     btnStyle = style.closeButtonStyleActive;
           // }
 
-
-
           console.log(i.index);
           if (index <= 3) {
             return (
